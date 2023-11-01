@@ -3,10 +3,63 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS 1</title>
+        
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nabla">
+
+    <style>
+        #main_hl {
+            text-align: center;
+            color: blue;
+        }
+        .my_pink {
+            color: pink;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        h3, h2 {
+            color: green;
+            font-family: "Sofia", sans-serif;
+            font-size: x-small;
+        }
+        div > h3 {
+            color: red;
+        }
+        
+        h3:hover {
+            background-color: aqua;
+            cursor: progress;
+            font-family: "Montserrat", sans-serif;
+        } 
+
+        div > h3:hover {
+            color: #ffff00;
+        } 
+        
+        
+    </style>
 </head>
 <body>
+    <script>
+        // define h2 with Hello world!
+        // set the id to "my_h2"
+        // set style using #my_h2 for color: red , and center
+        // check if it's red center
+        // document.getElementById('my_h2').innerHTML = 'my name is Itay'
+    </script>
+
     <hr />
+    <h1 id="main_hl">Welcome to my APP!</h1>
     <label for="txt_name">NAME: </label>
     <input type="text" name="txt_name" id="id_name"></input>
+    <p class="my_pink">My pink paragraph</p>
+    <h3>Green headline</h3>
+    <div>
+        <h3>Green headline</h3>
+    </div>
+    <p class="my_pink">Paragraph1</p>
+    <p class="my_blue">Paragraph1</p>
+    <p class="my_green" style="font-family: 'Nabla'">Paragraph1</p>
 </body>
 </html>
