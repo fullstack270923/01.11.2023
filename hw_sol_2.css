@@ -1,0 +1,33 @@
+div.first,
+.second,
+.third {
+    margin: 20px;
+    border: 1px black solid;
+}
+
+div.first {
+    background-color: yellow;
+    width: 100px;
+    height: 150px;
+    float: left
+}
+
+div.second {
+    background-color: yellow;
+    width: 100px;
+    height: 150px;
+    float: left
+}
+
+div.third {
+    background-color: yellow;
+    width: 100px;
+    height: 150px;
+    float: left
+}
+
+ul {
+    border: 3px red solid;
+    background-color: #0026f5;
+    margin-top: 0px;
+}
