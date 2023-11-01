@@ -1,0 +1,33 @@
+div,
+p,
+h1 {
+    margin: 0px;
+}
+
+div.main_div {
+    border-top: 4px dashed red;
+    border-left: 4px dashed purple;
+    border-right: 4px dashed green;
+    border-block-end: 4px dashed blue;
+    background: white;
+    width: 50%;
+    padding: 3px;
+    border-radius: 15px;
+}
+
+h1.headline1 {
+    background-color: #B5D6E4;
+    color: #3f7b1c;
+    text-align: left;
+    font-size: 30px;
+}
+
+div.wiki_lines {
+    background-color: #ee6c52;
+    color: #fec769
+}
+
+h1:hover {
+    background-color: #fffd52;
+    color: black;
+}
